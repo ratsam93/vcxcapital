@@ -5,18 +5,6 @@ const nextConfig = {
     return {
       beforeFiles: [
         {
-          source: '/buy',
-          destination: 'https://venturexcapitalwebapp.vercel.app/'
-        },
-        {
-          source: '/assets/:path*',
-          destination: 'https://venturexcapitalwebapp.vercel.app/assets/:path*'
-        },
-        {
-          source: '/static/:path*',
-          destination: 'https://venturexcapitalwebapp.vercel.app/static/:path*'
-        },
-        {
           source: '/:path*',
           destination: 'https://vxdefilabs.wpcomstaging.com/:path*',
         },
