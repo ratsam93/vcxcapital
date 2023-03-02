@@ -9,6 +9,14 @@ const nextConfig = {
           destination: 'https://venturexcapitalwebapp.vercel.app/'
         },
         {
+          source: '/assets*',
+          destination: 'https://venturexcapitalwebapp.vercel.app/assets*'
+        },
+        {
+          source: '/static*',
+          destination: 'https://venturexcapitalwebapp.vercel.app/static*'
+        },
+        {
           source: '/:path*',
           destination: 'https://vxdefilabs.wpcomstaging.com/:path*',
         },
