@@ -9,12 +9,12 @@ const nextConfig = {
           destination: 'https://venturexcapitalwebapp.vercel.app/'
         },
         {
-          source: '/assets*',
-          destination: 'https://venturexcapitalwebapp.vercel.app/assets*'
+          source: '/assets/:path*',
+          destination: 'https://venturexcapitalwebapp.vercel.app/assets/:path*'
         },
         {
-          source: '/static*',
-          destination: 'https://venturexcapitalwebapp.vercel.app/static*'
+          source: '/static/:path*',
+          destination: 'https://venturexcapitalwebapp.vercel.app/static/:path*'
         },
         {
           source: '/:path*',
