@@ -8,6 +8,10 @@ const nextConfig = {
           source: '/:path*',
           destination: 'https://vxdefilabs.wpcomstaging.com/:path*',
         },
+        {
+          source: '/buy',
+          destination: 'https://venturexcapitalwebapp.vercel.app/'
+        },
       ],
     }
   },
