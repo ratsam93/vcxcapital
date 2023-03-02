@@ -5,8 +5,8 @@ const nextConfig = {
     return {
       beforeFiles: [
         {
-          source: '*',
-          destination: 'https://vxdefilabs.wpcomstaging.com/*',
+          source: '/:path*',
+          destination: 'https://vxdefilabs.wpcomstaging.com/:path*',
         },
       ],
     }
