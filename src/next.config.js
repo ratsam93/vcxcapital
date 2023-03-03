@@ -6,7 +6,7 @@ const nextConfig = {
       beforeFiles: [
         {
           source: '/:path*',
-          destination: 'https://vxdefilabs.wpcomstaging.com/:path*',
+          destination: 'https://vxdefilabs.com/:path*',
         },
       ],
     }
