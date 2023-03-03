@@ -9,7 +9,7 @@ const nextConfig = {
           destination: 'https://vxdefilabs.com',
         },
         {
-          source: '/:path*/',
+          source: '/:path*',
           destination: 'https://vxdefilabs.com/:path*/',
         },
         
