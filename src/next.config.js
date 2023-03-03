@@ -6,8 +6,12 @@ const nextConfig = {
     return {
       beforeFiles: [
         {
-          source: '/:path*/+',
-          destination: 'https://vxdefilabs.com/:path*/+',
+          source: '/',
+          destination: 'https://vxdefilabs.com',
+        },
+        {
+          source: '/:path*/',
+          destination: 'https://vxdefilabs.com/:path*/',
         },
         
       ],
